@@ -1,0 +1,6 @@
+q3 
+
+sort -t"," -n -k2,2 SOCR-HeightWeight.csv | tail -n 10
+ 
+No the tallest person is with height 75.1528 inches an with 146.9701
+ pounds but in the sorted list we can clearly see values more than the one with the tallest
