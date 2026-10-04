@@ -1,0 +1,27 @@
+#Q1
+#i)
+a = [i for i in range(1,51)]
+#ii)
+#a)
+print(a[1:5])
+# (b)
+print(a[3:20:2])
+# # (c)
+print(a[::2])
+# (d)
+print(a[::])
+# (e)
+print(a[10::2])
+# (f)
+print(a[1:1:1])
+# (g)
+print(a[:0:])
+
+#(h) Is the output a non-empty list? Why did this work?
+print(a[-7::1])
+#yes it is an non-empty list we can see as the iteration /indexing starts from tje right end .
+
+#(i)
+print(a[-6:])
+# (j)
+print(a[-10:-4])
