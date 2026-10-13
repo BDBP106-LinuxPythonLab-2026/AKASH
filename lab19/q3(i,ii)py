@@ -1,0 +1,64 @@
+
+#Q3
+#i)
+#a)
+# a = ','.join([str(i) for i in range(1,51)])
+# print(a)
+
+#b)
+#a = '.'.join([str(i) for i in range(1,51)])
+#print(a)
+
+#c)
+# a = '-'.join([str(i) for i in range(1,51)])
+# print(a)
+
+#d)
+# a = [i for i in range(1,51)]
+# b=[]
+# for i in a:
+#      b.append(i**2)
+#
+# new = '\n'.join([str(i) + ' ' + str(i**2) for i in a])
+# print(new)
+
+# ii)
+# L= [ 'Akash Yadav' , 'aman Kumar', 'asma siddhique' , 'vibhi sharma' , 'jui singh' , 'altaf raza' , 'amaya sathaye' ,'swaraj naik' , 'anushka ranjan','neeraj singh' ]
+
+# #a)
+# L1=[]
+# for name in L:
+#     L1.append((name.upper()))
+# print(L1)
+
+#list comprenssion way
+# k = [name.upper() for name in L]
+# print(k)
+# (b) Swap the first name and surname of each element in the list
+
+
+
+# for name in L:
+#     parts = name.split()   # it splits everything like the white spaces in between then makes it new small list
+#     swapped_name = parts[1] + ' ' + parts[0] #iska output hai direct swapper naam , mo comma no bracked just
+#                                               #make sure you know how they got added as techmically they are strings rights so nuse + '' + thing
+#     L1.append(swapped_name)
+# print(L1) # lisat me add ho gaye yw sab lol
+
+# #lis comprenshion version
+L= [ 'Akash Yadav' , 'aman Kumar', 'asma siddhique' , 'vibhi sharma' , 'jui singh' , 'altaf raza' , 'amaya sathaye' ,'swaraj naik' , 'anushka ranjan','neeraj singh' ]
+#  L1 = [' '.join(name.split()[::-1]) for name in L]
+#  print(L1)
+
+
+# ok =[]
+# for name in L:
+#     o= name.title()
+#     parts = o.split()
+#     k=parts[0]+'.'+parts[1]
+#     ok.append(k)
+# print(ok)
+
+# ok = [name.title().replace(' ', '.') for name in L]
+# print(ok)
+
